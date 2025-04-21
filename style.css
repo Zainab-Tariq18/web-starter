@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgba(218, 165, 32, 0.318);
+    /* color:; */
+}
+
+header {
+    background-color:rgba(255, 217, 0, 0.414);
+    /* color: 1; */
+    padding: 15px 20px;
+    text-align: right;
+    align-items: center;
+    gap: 30px;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    /* image-rendering: auto; */
+    align-items: center; 
+
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+header nav ul li {
+    display:inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+     color:black; 
+    text-decoration: none;
+    font-size: 18px;
+    /* text-align: right; */
+}
+
+.hero {
+    background-color:rgba(218, 165, 32, 0.54);
+    text-align: center;
+    padding: 50px 0;
+    background-image: url(assets/picture8.jpg);
+}
+
+.hero h1 {
+    font-size: 50px;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    margin-left: 12px;
+
+}
+.product-card {
+    background-color:rgba(255, 217, 0, 0.12);
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 55vh;
+    width:45vw;
+    
+    
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.about-us{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:50px;
+   background-image: url(assets/picture11.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100vw;
+
+}
+.about-text{
+    max-width: 50%;
+}
+.about-text h1 {
+    font-size: 36px;
+    color: black;
+
+}
+.about-text p {
+    font-size: 16px;
+    color:black;
+
+}
+.learn-more{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px; 
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.container{
+    padding: 50px;
+    text-align: center;
+    background-image: url(assets/picture5.jpg);
+background-position: center;
+height: 100vh;
+width: 100vw;
+
+}
+.left-content h2{
+    color: black;
+
+}
+.contact-btn{
+    background-color: black;
+    color: bisque;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.highlight{
+    color:black;
+}
+.contact-popup{
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:gray;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    z-index: 1000;
+    margin-top: 50px;
+}
+.popup-content{
+    text-align: center;
+}
+.close-btn{
+    float: right;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.submit-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.search-cart {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hero {
+    height: 100vh;
+    background: url('assets/picture10.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;}
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+    }
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: white;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    /* @media (max-width: 768px)  */
+.hed{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
